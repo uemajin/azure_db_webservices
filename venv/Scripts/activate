@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\j.uema\OneDrive - CRITEO\Documents\GitHub\azure_db_webservices\venv"
+VIRTUAL_ENV="C:\Users\j.uema\OneDrive - CRITEO\Documents\github\azure_db_webservices"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,7 +54,7 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    PS1="(venv) ${PS1:-}"
+    PS1="(azure_db_webservices) ${PS1:-}"
     export PS1
 fi
 
